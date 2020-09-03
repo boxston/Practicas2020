@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase Html</title>
-
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .laImagen{
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
 
-    <header>
-        <img src="img/logo.png">
+    <header style="background-color: red;">
+        <img src="img/logo.png" class="laImagen item">
         <nav>
             <ul>
-                <li>Home</li>
-                <li onclick="location.href='http://localhost:4200/';">Servicios</li>
-                <li><a href="productos.html">Productos</a></li>
-                <li>
+                <li class="item" id="esHome">Home</li>
+                <li class="item" onclick="location.href='http://localhost:4200/';">Servicios</li> <!-- esto es js el onclick -->
+                <li class="item"><a href="productos.html">Productos</a></li>
+                <li class="item">
                     <a href="contacto.html" target="_blank">Contacto</a>
                 </li>
             </ul>

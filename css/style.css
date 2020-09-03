@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+header{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav > ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.item{
+    cursor: pointer;
+}
+
+#esHome{
+    font-weight: bold;
+}
+
+.item:hover{
+    font-size: 20px;
+}
